@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient( 140deg, #9287d6, #87CEFA );
+    display: flex;
+    align-items: center;
+    justify-self :center;
+
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+img{
+    display: flex;
+    justify-self: center;
+    height: 150px;
+}
+
+#button{
+    display: flex;
+    justify-self: center;
+    padding: 5px;
+    
+
+}
+
+#button:active{
+    transition: color, 0.3s;
+}
+
+h2{
+    text-align: center;
+}
+
+.price{
+    font-size: 24px;
+    font-weight: bold;
+    color: #158a25;
+}
